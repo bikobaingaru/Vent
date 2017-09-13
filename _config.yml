@@ -1,0 +1,69 @@
+# Site settings
+title: "biko baingaru"
+description: "Thoughts, observations, & mistakes with technology"
+disqus_shortname: bikobaingaru
+reading_time:     true
+words_per_minute: 200
+
+url: "https://bikobaingaru.com"
+#enforce_ssl: bikobaingaru.com
+
+# Owner/author information
+owner:
+  name: biko baingaru
+  avatar: avatar.jpg
+  bio: "Software Developer @ Codeverse Technology. Opinions are mine."
+  email: bikobaingaru@gmail.com
+# Social networking links used in footer. Update and remove as you like.
+  twitter_username: bikobaingaru
+  github_username:  bikobaingaru
+  #stackoverflow_link: users/bikobaingaru
+
+# Background image to be tiled on all pages
+background: 
+
+# Analytics and webmaster tools stuff goes here
+google_analytics_ua: UA-98881900-1
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:    Africa/Nairobi
+
+# Build settings
+highlighter: rouge
+markdown: kramdown
+plugins: [jekyll-sitemap, jekyll-paginate, jekyll-gist, jekyll-feed]
+
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink: /:categories/:year/:month/:day/:title/
+
+# Amount of posts to show on home page
+paginate: 5
+
+kramdown:
+  input: GFM
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+
+# RSS 2.0 can be used instead of Atom by uncommenting following two lines
+#feed:
+#   path:	     rss-feed.xml
+
+exclude:
+  - CHANGELOG
+  - Capfile
+  - Gemfile
+  - Gruntfile.js
+  - LICENSE
+  - README.md
+  - Rakefile
+  - config
+  - gulpfile.js
+  - lib
+  - log
+  - node_modules
+  - package.json
+  - spec
+  - tmp

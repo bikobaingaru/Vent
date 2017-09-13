@@ -1,0 +1,23 @@
+title:  biko baingaru
+tagline:  thoughts, observations, & mistakes with technology
+
+# Authors documented under _data
+
+# Change to true for Disqus comments
+disqus:
+  comments: false
+  disqus_shortname: 'bikobaingaru'
+
+google-ID: 'UA-98881900-1'
+
+menu:
+- {name: 'About', url: '../menu/about/index.html'}
+- {name: 'Archive', url: '../menu/archive/index.html'}
+- {name: 'Contact', url: '../menu/contact/index.html'}
+
+social:
+- {icon: 'github', link: 'https://github.com/bikobaingaru'}
+- {icon: 'twitter', link: 'https://twitter.com/bikobaingaru'}
+- {icon: 'rss-square', link: 'https://bikobaingaru.com/feed.xml'}
+
+# Available social icons are powered by Font Awesome, so you can use any icon that they offer
